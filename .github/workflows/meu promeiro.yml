@@ -34,7 +34,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Deploy to Staging
+      - name: Deploy do Staging
         run: echo "Deploying to Staging Environment"
 
   deploy_prod:
